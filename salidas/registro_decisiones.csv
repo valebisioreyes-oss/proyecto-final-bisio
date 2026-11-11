@@ -1,0 +1,23 @@
+tabla,decisión,filas afectadas,total de filas,% afectado
+encuesta,Borrar formularios enviados dos veces,17,657,2.59
+movimientos,Borrar operaciones registradas dos veces,94,4481,2.1
+movimientos,Borrar copias a nombre de clientes 8xxxx,74,4387,1.69
+encuesta,Unificar categorías de perfil_autodeclarado,87,640,13.59
+encuesta,Unificar categorías de departamento,73,640,11.41
+encuesta,Unificar categorías de tiene_fondo_emergencia,67,640,10.47
+encuesta,Unificar categorías de horizonte_inversion,73,640,11.41
+encuesta,Unificar categorías de frecuencia_monitoreo,43,640,6.72
+encuesta,Unificar categorías de fuente_informacion,45,640,7.03
+encuesta,"Códigos [-999, 0] -> NaN en ingreso_mensual_liquido",23,640,3.59
+encuesta,"Códigos [-999, 0] -> NaN en patrimonio_invertible_usd",22,640,3.44
+encuesta,Códigos [-1] -> NaN en puntaje_test_conocimiento,18,640,2.81
+encuesta,Edades fuera de 18 a 100 -> NaN,16,640,2.5
+movimientos,Montos negativos -> valor absoluto,18,4313,0.42
+encuesta,Meses vacíos sin fondo -> 0,17,640,2.66
+encuesta,Meses vacíos con fondo -> mediana,14,640,2.19
+encuesta,Edad vacía -> mediana de su ocupación,22,640,3.44
+movimientos,Borrar operaciones sin monto,51,4313,1.18
+encuesta,reaccion_caida_20 vacío -> 'Sin respuesta',19,640,2.97
+encuesta,objetivo_principal vacío -> 'Sin respuesta',26,640,4.06
+encuesta,Patrimonio no declarado -> conocido x cociente,51,640,7.97
+encuesta,Ingreso no declarado -> mediana de su quintil,62,640,9.69
